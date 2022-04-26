@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    width: 100%;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header .navbar .nav_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px 0px;
+}
+header .navbar .nav_title h1 {
+    font-weight: 500;
+}
+header .navbar .nav_title .nav_item {
+    display: flex;
+    align-items: center;
+}
+header .navbar .nav_title .nav_item li {
+    margin: 0 20px;
+}
+header .navbar .nav_title .nav_item li a {
+    color: black;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: .65s;
+}
+header .navbar .nav_title .nav_item li a:hover{
+    color: red;
+    transform: scale(1.1);
+}
+header .main .main_title {
+    width: 100%;
+    background-image: url(../img/IMAGE\ \(67\).png);
+    background-size: 100%;
+    height: 690px;
+    background-repeat: no-repeat;
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .main .main_title .bx {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 11px;
+    font-size: 30px;
+}
+.mains .section h2 {
+    font-weight: 500;
+    margin-left: 15px;
+}
+.mains .section .sec_title {
+    display: flex;
+    align-items: center;
+}
+.mains .section .sec_title .sec_item {
+    margin:  20px 15px ;
+    width: 900px;
+    transition: .65s;
+    cursor: pointer;
+}
+.mains .section .sec_title .sec_item:hover{
+    transform: scale(1.1);
+}
+.mains .section .sec_title .sec_item h3 {
+    margin: 10px 0px 0px;
+    font-weight: 600;
+}
+footer .foot_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+footer .foot_title .foot_item {
+    width: 500px;
+}
+footer .foot_title .foot_item h3 {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+footer .foot_title .foot_item p {
+    font-weight: 600;
+}
+footer .foot_title .foot_item span {
+    border-bottom: 1px solid black;
+}
+footer .foot_title .foot_list {
+    line-height: 30px;
+    font-weight: 600;
+}
+footer .foot_title .foot_list li a {
+    color: black;
+}
